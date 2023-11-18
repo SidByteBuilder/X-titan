@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif, Lobster;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Lobster;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-3 {
+    width: 30%;
+}
+
+table tr th {
+    border-bottom: 0x solid white;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: #ca89f5;
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: rgb(185, 122, 194);
+}
+
+.btn-secondary {
+    background-color: rgb(126, 219, 123);
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(32, 117, 32);
+}
+
+.btn-danger {
+    background-color: rgb(241, 150, 181);
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: rgb(122, 39, 39);
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: #c49b63;
+}
+
+.main-content {
+    color: #c495f1;
+    background-image: url("../../x-titan/admin/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-4 {
+    background-color: lightgray;
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+
+
+/* Subscribe me section*/
+
+.subscribe-us-area .subscribe {
+    background: url(../assets/subscribe-bg.png) no-repeat;
+    padding: 10rem 10rem;
+    margin: 3rem 4rem;
+}
+
+.subscribe-us-area .subscribe-title h4 {
+    font: normal 700 30px/30px var(--roboto);
+    color: whitesmoke;
+}
+
+.subscribe-us-area .subscribe-title p {
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.subscribe-us-area .subscribe form .input-textbox input {
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: whitesmoke;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.subscribe-us-area .subscribe form .input-textbox input::placeholder {
+    color: whitesmoke;
+}
+
+.subscribe-us-area .subscribe form .btn-submit button {
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 1.5rem;
+}
+
+.footer {
+    background-color: #aad4f0;
+    color: white;
+}
+
+
+/*login page design */
+
+.login {
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}

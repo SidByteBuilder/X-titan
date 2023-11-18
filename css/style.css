@@ -1,0 +1,438 @@
+/* google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&family=Roboto:wght@300&family=Rubik&family=Sniglet&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Single-font: "Sniglet", cursive;
+    --Rubika: "Rubika", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #aad4f0, #ca89f5);
+    --light-gray: rgba(255, 255, 255, 0.7);
+}
+
+header a {
+    font-family: var(--Single-font);
+    font-size: 1em;
+    color: rgba(247, 12, 235, 0.616);
+    font-weight: 600;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: rgb(218, 30, 92);
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubika);
+    color: rgba(179, 59, 159, 0.616);
+    /* header color books adventure and paragraph */
+}
+
+header .row .col-md-5 img {
+    width: 100%;
+}
+
+header .continer .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+    /* Books adventure area font*/
+}
+
+header.container .col-md-7 p {
+    padding: 1vmin 5vmin;
+    /* Books adventure paragraph font*/
+}
+
+header .container .col-md-7 button {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+/* header section complete here */
+
+
+/* section 1 start */
+
+.section-1 {
+    padding: 20vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubika);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* section 1 completed */
+
+
+/* section 2 start */
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url("../assets/pexels-photo-452738.jpeg");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content>p {
+    font-family: var(--Rubika);
+    font-size: 2vmin;
+    color: #ff512f;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background-attachment: rgb(229, 153, 229);
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(111, 201, 236, 0.349);
+}
+
+.numbers {
+    margin-bottom: -15vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: rgb(235, 193, 255);
+}
+
+.number .rect p {
+    font-family: var(--Patua);
+}
+
+.purchase>h1 {
+    padding-top: 20vmin;
+    font-family: var(--Lobster);
+}
+
+.purchase>p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+    color: rgb(199, 100, 245);
+}
+
+.purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+
+/*Project area*/
+
+.site-main .project-area {
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button+button {
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project>.title h4 {
+    font: normal 700 25px/12px var(--roboto);
+}
+
+button:focus,
+button:active button:hover .btn:active,
+.btn.active {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+
+/*popup image hover effect */
+
+.site-main .project-area .grid .our-project .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #461488)
+}
+
+.title-h1 {
+    font: normal bold 39px/40px var(--roboto);
+}
+
+
+/* product secction 2 start here */
+
+.menu-entry .title-1 {
+    padding: 5;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.menu-entry {
+    margin: 30px 5px;
+}
+
+.menu-entry .img {
+    border: 2px solid #db80cf;
+    background: transparent;
+    color: #c49b63;
+    display: block;
+    height: 200px;
+    margin: 40px;
+    padding: 5px;
+}
+
+.img:hover {
+    border: 2px solid #7b36d6;
+    background: transparent;
+    color: #c49b63;
+}
+
+.menu-entry .text h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu-entry .text h3 a {
+    color: #db80cf;
+}
+
+.menu-entry .text .price span {
+    color: #db80cf;
+    font-size: 18px;
+}
+
+.btn.btn-primary {
+    background: #c49b63;
+    border: 1px solid #c49b63;
+    color: #000;
+}
+
+.btn.btn-primary:hover {
+    border: 1px solid #c49b63;
+    background: transparent;
+    color: #c49b63;
+}
+
+.btn.btn-primary.btn-outline-primary {
+    border: 1px solid #c49b63;
+    background: transparent;
+    color: #c49b63;
+}
+
+.btn.btn-primary.btn-outline-primary:hover {
+    border: 1px solid transparent;
+    background: #c49b63;
+    color: #fff;
+}
+
+
+/* section 3*/
+
+.section-3 {
+    height: 70vmin;
+    margin-top: 14vmin;
+    background: var(--bggradient);
+    /* background color pink*/
+}
+
+.section-3 .col-md-12>h1 {
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
+
+.section-3 .col-md-12>p {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+    font-size: 3vmin;
+}
+
+.section-3 .desktop {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+
+.section-3 .desktop h3 {
+    font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+    font-size: 2vmin;
+}
+
+
+/* section 4*/
+
+.section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-4 .card .card-body>a {
+    font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+
+/* Footer*/
+
+footer {
+    background: rgba(0, 0, 0, 0.85);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #ffffff;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: rgb(205, 84, 216) !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #d355ec;
+}
+
+footer .column i+i {
+    /*css sibling selector*/
+    padding: 0 0.5em;
+}
